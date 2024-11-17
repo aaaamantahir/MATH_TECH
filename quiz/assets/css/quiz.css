@@ -1,0 +1,116 @@
+/*
+ *
+ * Set basic properties for the entire page.
+ *
+ */
+
+html {
+    font-size: 10px;
+}
+
+body {
+    background-color: #F0F2EB;
+}
+
+
+/*
+ *
+ * Header styling..
+ *
+ */
+
+header {
+    margin: 3%;
+    padding: 2%;
+    border-radius: 1rem;
+    background-color: #f7f1f1;
+    border: 1px dotted;
+}
+
+header .logo,
+header .pageTitle {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.logo {
+    width: 10%;
+}
+
+.pageTitle {
+    width: 89%;
+    font-size: 3rem;
+}
+
+img {
+    border-radius: .5rem;
+}
+
+.spacer {
+    clear: both;
+}
+
+
+/*
+ *
+ * Sections
+ *
+ */
+
+section {
+    background-color: #DDF0F1;
+    margin: 3%;
+    border-radius: 1rem;
+    padding: 2%;
+    border: 1px dotted;
+    font-size: 1.8rem;
+}
+
+#quizHeading {
+    text-transform: capitalize;
+}
+
+.setFontSize {
+    font-size: 3rem;
+}
+
+.centreText {
+    text-align: center;
+}
+
+.shiftRight {
+    margin-left: 20%;
+}
+
+
+/*
+ *
+ * Buttons
+ *
+ */
+
+.btn {
+    border-radius: 1rem;
+    color: #FFF;
+    background-color: #150DA0;
+    border: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 1.4rem;
+    letter-spacing: .5px;
+    text-transform: capitalize;
+    text-align: center;
+    padding: 1rem 3rem;
+}
+
+.btn:hover {
+    color: #1a1ac5;
+    background-color: #FFF;
+}
+
+.disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+}
